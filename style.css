@@ -1,0 +1,688 @@
+body {
+  margin: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+.wrapper {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(auto-fill,  ) ;
+        background-color: #fff;
+       
+    }
+  .box {
+       
+        color: #fff;
+        border-radius: 5px;
+        padding: 20px;
+        font-size: 150%;
+
+    }
+
+  .header {
+        height: 100%;
+        grid-column: 1 / 5;
+        background-image: url(https://images.pexels.com/photos/221471/pexels-photo-221471.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    @media (min-width: 200px) and (max-width: 480px ){
+      .header{
+        float: none;
+        width: 100%;
+        padding: 0%;
+      }
+    }
+     /* start of medium tablet styles */
+    @media  (min-width: 481px) and (max-width: 767px) {
+      .header{
+        float: none;
+        width: 100%;
+        padding: 0%;
+      }
+      
+      }
+
+
+    .navbar {
+      overflow: hidden;
+      
+      position: fixed; /* Set the navbar to fixed position */
+      top: 0; /* Position the navbar at the top of the page */
+      width: 80%; 
+    }
+    
+    /* Links inside the navbar */
+    .navbar a {
+      float: left;
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 10px 12px;
+      text-decoration: none;
+      font-size: 60%;
+    }
+   
+    
+    
+    .navbar a:hover {
+    text-decoration-line: underline;
+    text-decoration-color: #F05A28; 
+    }
+    .navbar a:active{
+      text-decoration-line: underline;
+      text-decoration-color: #F05A28; 
+      background-color: #ddd;
+    }
+    
+    .right{
+      float:right;
+    }
+    .select{
+      float:right;
+      border: 1px solid transparent;
+      border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+     
+     
+    }
+    .navbar img{
+      float: left;
+    }
+
+    @media (min-width: 200px) and (max-width: 480px ){
+      .navbar {
+       
+        width: 100%;
+      }
+    }
+
+     /* start of medium tablet styles */
+     @media  (min-width: 481px) and (max-width: 767px) {
+      .navbar{
+      
+        width: 100%;
+        
+      }
+      
+      }
+    .experience{
+      float:left;
+      text-decoration-color: #fff;
+      padding-top: 150px;
+      padding-left: 80px;
+      
+    }
+    .experience p{
+      font-size: 40%;
+    }
+    #explore{
+      background-color:#F05A28;
+      border: none;
+      color: white;
+      padding: 10px 12px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+    }
+    #explore:hover{
+      background-color: rgb(235, 5, 5);
+    }
+    
+    #watch{
+      background-color:#F7F7F7;
+      border: none;
+      color: #F05A28;
+      padding: 10px 12px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+    }
+    /*end of header*/
+
+    /*subheader start*/
+
+    .subheader {
+        background-color:none;
+        grid-column: 1 / 5 ;
+        grid-row:2;
+    }
+    @media (min-width: 200px) and (max-width: 480px ){
+      .subheader{
+        float: none;
+        width: 100%;
+        padding: 0%;
+        grid-column: 1 / 5 ;
+        grid-row:2;
+      }
+    }
+     /* start of medium tablet styles */
+     @media  (min-width: 481px) and (max-width: 767px) {
+      .navbar{
+      
+        width: 100%;
+        
+      }
+      
+      }
+    .subheader p{
+      font-size: 80%;
+      color: #444;
+    }
+    .subheader h1{
+      font-size: 150%;
+      color: #444;
+    }
+    .subheader1{
+      background-color:none;
+      float:left;
+      width:50%;
+    }
+
+    @media (min-width: 200px) and (max-width: 480px ){
+      .subheader1{
+        float: none;
+        width: 100%;
+        padding: 0%;
+       
+      }
+    }
+     /* start of medium tablet styles */
+     @media  (min-width: 481px) and (max-width: 767px) {
+      .subheader1{
+      
+        width: 50%;
+        
+      }
+      
+      }
+    .subheader2{
+      background-color:none;
+      float:right;
+      width:50%;
+    }
+    @media (min-width: 200px) and (max-width: 480px ){
+      .subheader2{
+        float: none;
+        width: 100%;
+        padding: 0%;
+       
+      }
+    }
+     /* start of medium tablet styles */
+     @media  (min-width: 481px) and (max-width: 767px) {
+      .subheader2{
+      
+        width: 50%;
+        
+      }
+      
+      }
+
+
+    /*subheader end*/
+
+    .main {
+      text-align: justify;
+      height:100%;
+      padding:10%;
+      background-color: #7CC9C2;
+      grid-column: 1 / 5 ;
+      grid-row: 3 ;
+    }
+    @media (min-width: 200px) and (max-width: 480px ){
+      .main-left{
+        float: none;
+        width: 100%;
+        padding: 0%;
+        
+      }
+    }
+     /* start of medium tablet styles */
+     @media  (min-width: 481px) and (max-width: 767px) {
+      .mainleft{
+      
+        width: 50%;
+        
+      }
+      
+      }
+    .main h6{
+      color:black;
+      text-align: center;
+    }
+    .main p{
+      font-size: 15px;
+    }
+    .main-left{
+      width:60%;
+      float:left;
+    }
+    .main-left img{
+      float:left;
+      padding-right:5%;
+     
+    }
+    .first{
+      background-color: #F7F7F7;
+      height:80px;
+      width:100%;
+    }
+   .main-right {
+     width:30%;
+     float:right;
+     padding-top: 5%;
+   }
+   @media (min-width: 200px) and (max-width: 480px ){
+    .main-right{
+      float: none;
+      width: 100%;
+      padding: 0%;
+      
+    }
+  }
+   /* start of medium tablet styles */
+   @media  (min-width: 481px) and (max-width: 767px) {
+    .main-right{
+    
+      width: 50%;
+      
+    }
+    
+    }
+   
+   
+
+    .sidebar {
+       text-align: justify;
+        height:100%;
+        width:80%;
+        margin-left: 10%;
+        margin-right:10%;
+        background-color: #F7B74F;
+        grid-column: 1 / 5;
+        grid-row: 4;
+    }
+   
+    #more {display: none;}
+
+    .sidebar p{
+      font-size: 60%;
+    }
+    .sidebar h4{
+      color:black;
+    }
+    #read{
+      background-color:#F05A28;
+      border: none;
+      color: white;
+      padding: 10px 12px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+    }
+    #read:hover{
+      background-color: rgb(235, 5, 5);
+    }
+    .sidebar-left{
+      float: left;
+      width:50%;
+      
+    }
+    @media (min-width: 200px) and (max-width: 480px ){
+      .sidebar-left{
+        float: none;
+        width: 100%;
+        padding: 0%;
+        
+      }
+    }
+    .sidebar-right{
+      background-color: #F7F7F7;
+      float:right;
+      width:40%;
+      padding: 5%;
+      
+    }
+    @media (min-width: 200px) and (max-width: 480px ){
+      .sidebar-right{
+        float: none;
+        width: 100%;
+        padding: 0%;
+        
+      }
+    }
+    .sidebar-right p{
+      color:black;
+      
+    }
+
+    .accordion {
+     
+      background-color: #eee;
+      color: #444;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 15px;
+      transition: 0.4s;
+     
+    }
+
+    #turska{
+      background-image: url('img/turska.jpg');
+      background-repeat: no-repeat;
+      background-size: 100% 100%;    
+    }
+    #turska p{
+      color:white;
+      float:right;
+      font-size: 12px;
+    }
+    #rusija{
+      height:100%;
+      background-image: url('img/russia.jpg');
+      background-size: 100% 100%;
+    }
+    #rusija p{
+      color:white;
+      float:right;
+      font-size: 12px;
+    }
+    #brazil{
+      height:100%;
+      background-image: url('img/brazil.jpg');
+      background-size: 100% 100%;
+    }
+    #brazil p{
+      color:white;
+      float:right;
+      font-size: 12px;
+    }
+    #china{
+      height:100%;
+      background-image: url('img/china.jpg');
+      background-size: 100% 100%;
+    }
+    #china p{
+      color:white;
+      float:right;
+      font-size: 12px;
+    }
+    #thailand{
+      height:100%;
+      background-image: url('img/thailand.jpg');
+      background-size: 100% 100%;
+    }
+    #thailand p{
+      color:white;
+      float:right;
+      font-size: 12px;
+    }
+    
+    
+    .active, .accordion:hover {
+      background-color: #ccc;
+    }
+    
+    .panel {
+      padding: 0 18px;
+      background-color: white;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease-out;
+    }
+    
+  .article {
+    background-color: whitesmoke;
+    height:100%;
+    width:80%;
+    margin-left: 10%;
+    margin-right:10%;
+    grid-column: 1 / 5;
+    grid-row: 5;
+}
+@media (min-width: 200px) and (max-width: 480px ){
+  .article{
+    float: none;
+    width: 100%;
+    padding: 0%;
+    
+  }
+}
+.article h2,h4,p,li{
+  color:black;
+  text-align: justify;
+}
+.article p,li{
+  font-size:70%;
+}
+
+article ul{
+  list-style-type:circle;
+}
+
+.aside {
+  padding:10%;
+  background-color:white;
+  grid-column: 1 / 5;
+  grid-row: 6;
+}
+
+.aside-left{
+  float:left;
+  width:50%;
+}
+@media (min-width: 200px) and (max-width: 480px ){
+  .aside-left{
+    float: none;
+    width: 100%;
+    padding: 0%;
+    
+  }
+}
+.aside-right{
+  float:right;
+  width:50%;
+}
+@media (min-width: 200px) and (max-width: 480px ){
+  .aside-right{
+    float: none;
+    width: 100%;
+    padding: 0%;
+    
+  }
+}
+
+.footer {
+  text-align: justify;
+  width:100%;
+  height:100%;
+  padding-left:20%;
+  background-color: #318C8C;
+  
+  grid-column: 1 / 5 ;
+  grid-row: 7 ;
+}
+@media (min-width: 200px) and (max-width: 480px ){
+  .main-left{
+    float: none;
+    width: 100%;
+    padding: 0%;
+    
+  }
+}
+.company{
+  float:left;
+  padding-right: 10%;
+}
+.features{
+  float :left;
+}
+.about{
+  float:left;
+}
+.free-tools{
+  float:left;
+}
+.footer a {
+ 
+  
+  color:white;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 60%;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+
+
+input[type=text], [type=email], textarea {
+  width: 100%;
+  background-color: #bbb;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: orange;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: blue;
+}
+.aside label{
+  color:black;
+}
+
+.aside h4{
+  color:black;
+  text-align: center;
+}
+
+
+.guide{
+  float:right;
+  padding-top: 350px;
+  padding-right: 80px;
+ 
+}
+.guide p{
+  font-size: 40%;
+  color: #444;
+}
+.guide h6{
+  color:black;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
